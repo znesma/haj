@@ -1,0 +1,39 @@
+/* start header */
+.header{
+
+}
+.header .logo{
+    display: flex;
+}
+.header .logo img{
+    width:60px;
+
+}
+.header .r-links ul {
+    margin-left: 300px;
+}
+/*end header */
+/* start content */
+.content .main{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-image: url(../images/Group\ \(1\).png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ 
+}
+.content .main img{
+    width:120px;
+    margin-bottom: 30px;
+}
+.content .main h1{
+    color:white;
+    background-color: var(--main-color);
+    padding:10px;
+    border-radius:25px
+}
+.content .main h2{
+    color:black;
+}
+/* end content */
